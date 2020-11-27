@@ -2,8 +2,8 @@
 # PGP ID: 72DF86FBBBBD5EDAE8FF1834826884A347F9FD9A
 
 pkgname=man-pages-fr
-pkgver=4.1.0
-pkgrel=2
+pkgver=4.2.0
+pkgrel=1
 pkgdesc="French man pages"
 arch=('any')
 url="https://salsa.debian.org/manpages-l10n-team/manpages-l10n"
@@ -14,7 +14,7 @@ makedepends=('po4a')
 changelog=$pkgname.changelog
 options=('!emptydirs')
 source=(https://salsa.debian.org/manpages-l10n-team/manpages-l10n/-/archive/v$pkgver/manpages-fr-l10n-v${pkgver}.tar.bz2)
-sha512sums=('b22dc9289bd1b1fc308727c993bd3c2857925ca58e8012b88548ffab967a055979615a1cfc8ff769f1f6b4fd96c3b5ae1ac367847759b7254900808531087ee1')
+sha512sums=('9f9d3153b512c7fb0dbc3916d3b049e8b30fc00a9d6f5bef9e2e2f645f8af8c2344f0e215a80f5da67e6cba9f80193b7c425f39925112579bde8c9e69756645c')
 
 build() {
   cd "${srcdir}"/manpages-l10n-v4.1.0-39f19d6149a9393655cbdb35202410ae750e1e90
