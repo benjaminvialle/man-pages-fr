@@ -1,6 +1,6 @@
 pkgbase = man-pages-fr
 	pkgdesc = French man pages
-	pkgver = 4.2.0
+	pkgver = 4.9.3
 	pkgrel = 1
 	url = https://salsa.debian.org/manpages-l10n-team/manpages-l10n
 	changelog = man-pages-fr.changelog
@@ -11,8 +11,8 @@ pkgbase = man-pages-fr
 	conflicts = man-pages-fr-git
 	conflicts = man-pages-pacman-fr
 	options = !emptydirs
-	source = https://salsa.debian.org/manpages-l10n-team/manpages-l10n/-/archive/v4.2.0/manpages-fr-l10n-v4.2.0.tar.bz2
-	sha512sums = 9f9d3153b512c7fb0dbc3916d3b049e8b30fc00a9d6f5bef9e2e2f645f8af8c2344f0e215a80f5da67e6cba9f80193b7c425f39925112579bde8c9e69756645c
+	source = https://salsa.debian.org/manpages-l10n-team/manpages-l10n/-/archive/v4.9.3/manpages-fr-l10n-v4.9.3.tar.bz2
+	sha512sums = e2744ffde55f50030296930d66c72727e7ea588a43ffc286749bd67a8d7f701d49a9282b0339d2ab4de767b2a5062073f85b6bc2a736c765969ce35a9dbaada0
 
 pkgname = man-pages-fr
 
